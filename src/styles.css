@@ -1,4 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+
+body {
+  background: linear-gradient(to right, #355c7d, #c06c84);
+  margin: 0%;
+  height: 700px;
+}
+
 .App {
-  font-family: sans-serif;
+  font-family: "Audiowide", cursive;
+  /* font-family: 'Bungee Outline', cursive; */
   text-align: center;
+  margin: "0%";
+  padding: "0%";
+  color: white;
+  /* height: "100%"; */
+}
+
+.header {
+  max-width: 600px;
+  margin: 0rem auto;
+  padding: 0rem;
+}
+
+.navigation {
+  margin: 1rem auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.body-container {
+  max-width: 500px;
+  margin: 0rem auto;
+  padding: 1rem;
+  text-align: center;
+  /* border-radius: 0.5rem; */
+  /* border: 2px solid gray; */
+}
+
+.container {
+  max-width: 90%;
+  text-align: center;
+  margin: 0rem auto;
+
+  display: flex;
+  flex-direction: column;
 }
