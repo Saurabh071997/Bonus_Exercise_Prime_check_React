@@ -2,4 +2,5 @@
 
 A web application built with **React** to check if a number is prime.
 
-![](./prime.png)
+### Sreenshot
+![](/prime.png)
